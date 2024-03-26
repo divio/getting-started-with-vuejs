@@ -2,7 +2,7 @@
 
 [![Deploy to Divio](https://img.shields.io/badge/DEPLOY-TO%20DIVIO-DFFF67?logo=docker&logoColor=white&labelColor=333333)](https://control.divio.com/app/new/?template_url=https://github.com/divio/getting-started-with-vuejs/archive/refs/heads/main.zip)
 
-Welcome to our QuickStart template – your portal to swift application development and seamless local testing. Whether you're delving into Vue.js for the first time or optimizing your workflow, our template, based on [Link to Getting Started]({TEMPLATE}), has got you covered.
+Welcome to our QuickStart template – your portal to swift application development and seamless local testing. Whether you're delving into Vue.js for the first time or optimizing your workflow, our template, based on Vue.js' [Quick Start](https://vuejs.org/guide/quick-start.html), has got you covered.
 
 ## Cloud Setup
 
