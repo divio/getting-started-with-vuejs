@@ -20,6 +20,5 @@ Alternatively, build this app locally using Docker:
 2. Clone this repository locally.
 3. Build the app with `docker compose build`.
 4. Build the app with `docker compose run web npm install`.
-4. Build the app with `docker compose run web npm format`.
 5. Run the app using `docker compose up`.
 6. Open [http://localhost:8000]() to view your app.
