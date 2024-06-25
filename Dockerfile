@@ -1,6 +1,4 @@
-FROM node:20.13.1
-
-ENV NODE_PATH=/app/node_modules
+FROM node:lts-alpine
 
 WORKDIR /app
 
