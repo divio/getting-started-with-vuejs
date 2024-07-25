@@ -1,14 +1,17 @@
-version: "3"
-
+# The docker-compose.yml file is __only__ used for local development.
+# This means that changes to this file will not affect cloud deployments in any way.
+# Read more at https://docs.divio.com/reference/docker-docker-compose/
 services:
   web:
     build: .
     ports:
-      - "8000:80"
+      - '8000:80'
     volumes:
-      - ".:/app:rw"
-      - "./data:/data:rw"
-      - "node_modules:/app/node_modules"
+      - '.:/app:rw'
+      - './data:/data:rw'
+      - 'node_modules:/app/node_modules'
+    # The following command is used to start the local development server.
+    # Removing this line will mimic the deployment behaviour on Divio Cloud.
     command: npm run dev -- --host 0.0.0.0 --port 80
 
 volumes:
