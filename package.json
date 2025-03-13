@@ -18,28 +18,28 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.5",
+    "@rushstack/eslint-patch": "^1.11.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^22.13.1",
+    "@types/node": "^22.13.10",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.7.0",
-    "eslint": "^9.20.1",
+    "eslint": "^9.22.0",
     "eslint-plugin-vue": "^9.32.0",
     "jsdom": "^26.0.0",
     "npm-run-all2": "^7.0.2",
-    "prettier": "^3.5.0",
-    "typescript": "~5.7",
-    "vite": "^6.1.0",
-    "vitest": "^3.0.5",
-    "vue-tsc": "^2.2.0"
+    "prettier": "^3.5.3",
+    "typescript": "~5.8",
+    "vite": "^6.2.1",
+    "vitest": "^3.0.8",
+    "vue-tsc": "^2.2.8"
   },
 	"optionalDependencies": {
-    "@rollup/rollup-linux-arm64-musl": "^4.34.6",
-    "@rollup/rollup-linux-x64-musl": "^4.34.6",
-    "@swc/core-linux-arm64-musl": "^1.10.15"
+    "@rollup/rollup-linux-arm64-musl": "^4.35.0",
+    "@rollup/rollup-linux-x64-musl": "^4.35.0",
+    "@swc/core-linux-arm64-musl": "^1.11.9"
   }
 }
